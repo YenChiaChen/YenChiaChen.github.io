@@ -1,0 +1,24 @@
+bottom:
+    - class_name: user-about
+      id_name: user-about
+      name: 關於我
+      icon: fas fa-cat
+      order: 0 data-driven projects'
+      html: '今年25歲，<br />在這裡記錄我的人生標籤：<br /> <br /> 
+      <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+          <p style="background-color: #4c5170; border-radius: 10px; padding: 5px; color: white; font-size:12px; margin:0;">網球甲組選手</p>
+          <p style="background-color: #81EBC5; border-radius: 10px; padding: 5px; color: white; font-size:12px; margin:0;">財富自由</p>
+          <p style="background-color: #EBDD81; border-radius: 10px; padding: 5px; color: white; font-size:12px; margin:0;">鋼琴3級</p>
+          <p style="background-color: #81A5EB; border-radius: 10px; padding: 5px; color: white; font-size:12px; margin:0;">Zero Trust x AI 論文發表</p>
+          <p style="background-color: #704C4C; border-radius: 10px; padding: 5px; color: white; font-size:12px; margin:0;">台科資工畢</p>
+          <p style="background-color: #4C7062; border-radius: 10px; padding: 5px; color: white; font-size:12px; margin:0;">美術班</p>
+          <p style="background-color: #704C5F; border-radius: 10px; padding: 5px; color: white; font-size:12px; margin:0;">奧林匹亞化學科</p>
+          <p style="background-color: #70694C; border-radius: 10px; padding: 5px; color: white; font-size:12px; margin:0;">UCLA退學</p>
+          <p style="background-color: #EBDD81; border-radius: 10px; padding: 5px; color: white; font-size:12px; margin:0;">Fintech華南金獎</p>
+          <p style="background-color: #EB8E81; border-radius: 10px; padding: 5px; color: white; font-size:12px; margin:0;">高爾夫: 84桿</p>
+          <p style="background-color: #EB81DD; border-radius: 10px; padding: 5px; color: white; font-size:12px; margin:0;">新創公司又倒閉</p>
+          <p style="background-color: #4c5170; border-radius: 10px; padding: 5px; color: white; font-size:12px; margin:0;">前端工程師</p>
+          <p style="background-color: #704C4C; border-radius: 10px; padding: 5px; color: white; font-size:12px; margin:0;">切版</p>
+          <p style="background-color: #70694C; border-radius: 10px; padding: 5px; color: white; font-size:12px; margin:0;">接案工程師</p>
+      </div>
+      '
