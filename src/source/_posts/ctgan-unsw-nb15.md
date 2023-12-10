@@ -14,6 +14,7 @@ tags:
 keywords: ["UNSW-NB15", "CTGAN", "Dataset Imbalance", "Generative Models", "Data Accuracy Improvement"] 
 description: "Explore how CTGAN can be used to effectively address and correct data imbalances in the UNSW-NB15 datasets, significantly improving dataset accuracy." 
 cover: /img/ctgan-bg.webp
+published: false
 ---
 
 ## 引言：當機器學習遇到不平衡的挑戰
@@ -50,3 +51,9 @@ CGAN（條件生成對抗網絡）是GAN的一個變體，就像一位接受特�
 ### CTGAN：專注於表格的創造者
 CTGAN（表格生成對抗網絡）專門用於處理表格數據。想象一下，一位專門繪畫靜物的藝術家，他專注於繪製桌子上的物品（表格數據）。CTGAN通過學習表格數據的特徵，創造出新的、逼真的表格數據行，就像藝術家精心繪製每一個細節，確保整體作品的真實性和和諧性。
 
+
+## 實驗結果
+### SMOTE
+![UNSW-NB15資料分布](/img/ctgan-smote.png)
+SMOTE對模型性能的提升似乎不那麼明顯，就像在一幅巨大壁畫上修補了幾處細小的裂縫。
+在數據上可以看的出來，SMOTE是有用的，但對於像是Analysis來說，可能並不適合用線性插植來訓練。

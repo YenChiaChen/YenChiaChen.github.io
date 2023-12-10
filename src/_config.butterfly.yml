@@ -51,7 +51,7 @@ avatar:
 disable_top_img: false
 
 # The banner image of home page
-index_img: img/bg.png
+index_img: img/bg.webp
 
 # If the banner of page not setting, it will show the top_img
 default_top_img:
@@ -246,26 +246,26 @@ aside:
     expand: none # none/true/false
     sort_order: 1
   card_tags:
-    enable: true
+    enable: false
     limit: 40 # if set 0 will show all
     color: false
     orderby: random # Order of tags, random/name/length
     order: 1 # Sort of order. 1, asc for ascending; -1, desc for descending
     sort_order: 3
   card_archives:
-    enable: true
+    enable: false
     type: monthly # yearly or monthly
     format: MMMM YYYY # eg: YYYY年MM月
     order: -1 # Sort of order. 1, asc for ascending; -1, desc for descending
     limit: 8 # if set 0 will show all
     sort_order: 4
   card_webinfo:
-    enable: true
+    enable: false
     post_count: true
     last_push_date: true
     sort_order: 5
   card_post_series:
-    enable: true
+    enable: false
     orderBy: 'date' # Order by title or date
     order: -1 # Sort of order. 1, asc for ascending; -1, desc for descending
 
